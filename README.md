@@ -104,8 +104,20 @@ python3 EvalGenRM/eval_bn.py \
 The implementation is based on [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF).
 
 ### 2.1 Setup
+- Install the necessary dependencies 
+  ```bash
+  pip install -r requirements_sft.txt
+  ```
 
 ### 2.2 Usage
+
+Choose the appropriate training script based on the output type:
+
+- **Binary**  
+  Run: [`run_binary_max_sft.sh`](OpenRLHF/run_binary_max_sft.sh)
+
+- **Multiclass**  
+  Run: [`run_multiclass_max_sft.sh`](OpenRLHF/run_multiclass_max_sft.sh)
 
 ---
 
