@@ -1,4 +1,14 @@
-# Think-RM
+# Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models
+
+📖[Paper](https://www.arxiv.org/abs/2505.16265)
+
+![Think-RM](images/Think_RM.png)
+
+<p align="center">
+  <img src="images/intro1-1.png" width="30%" />
+  <img src="images/intro1-2.png" width="30%" />
+  <img src="images/intro1-3.png" width="30%" />
+</p>
 
 ## Overview
 
@@ -10,11 +20,11 @@ This repository implements **Think-RM**, a training framework that enables long-
 - [PairwiseRLHF](./PairwiseRLHF): Pairwise RLHF for GenRMs.
 
   ```bash
-  /Think-RM/
-  ├── EvalGenRM            # GenRM evaluation
-  ├── OpenRLHF             # SFT warm-up
-  ├── VERL                 # Rule-based RL
-  └── PairwiseRLHF         # Pairwise RLHF for GenRMs
+  Think-RM/
+  ├── EvalGenRM/            # GenRM evaluation
+  ├── OpenRLHF/           # SFT warm-up
+  ├── VERL/                 # Rule-based RL
+  └── PairwiseRLHF/         # Pairwise RLHF for GenRMs
   ```
 
 ---
