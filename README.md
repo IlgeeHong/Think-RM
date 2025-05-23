@@ -1,6 +1,9 @@
 # Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models
 
-📝 [Paper](https://www.arxiv.org/abs/2505.16265)
+<p align="center">
+  📝 <a href="https://www.arxiv.org/abs/2505.16265">Paper</a> &middot;
+  🚀 <a href="https://think-rm.github.io/">Project Page</a>
+</p>
 
 <div align="center">
   <img src="images/Think_RM.png"
