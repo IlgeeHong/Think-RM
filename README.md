@@ -2,8 +2,6 @@
 
 📖[Paper](https://www.arxiv.org/abs/2505.16265)
 
-![Think-RM]()
-
 <div align="center">
   <img src="images/Think_RM.png"
        width="70%"
