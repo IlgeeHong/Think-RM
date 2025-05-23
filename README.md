@@ -57,7 +57,7 @@ This repository implements **Think-RM**, a training framework that enables long-
 
 ---
 
-## Table of Contents
+## 📝 Table of Contents
 
 1. [GenRM Evaluation](#1-genrm-evaluation)  
    1.1 [Setup](#11-setup)  
