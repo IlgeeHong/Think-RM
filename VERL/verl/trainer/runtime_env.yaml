@@ -1,8 +1,0 @@
-# working_dir: ./
-working_dir: /workspace/VERL
-excludes: ["/.git/"]
-env_vars:
-  WANDB_API_KEY: "85bc4af079ac8f0f91d3412b20b3eb9301c7bacd"
-  HF_TOKEN: "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"
-  TORCH_NCCL_AVOID_RECORD_STREAMS: "1"
-  # VLLM_ATTENTION_BACKEND: "XFORMERS"
