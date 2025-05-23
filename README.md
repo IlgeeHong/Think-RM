@@ -37,7 +37,7 @@ This repository implements **Think-RM**, a training framework that enables long-
 
 ---
 
-## Pretrained Models
+## 🤗 Pretrained Models
 
 🧠 [Binary Think-RM](https://huggingface.co/ilgee/hs2-naive-binary-max-ep5-lr1e-5-grpo-ep1-lr2e-6-kl1e-4-rollout512-v0)
 
@@ -49,7 +49,7 @@ This repository implements **Think-RM**, a training framework that enables long-
 
 ---
 
-## Long CoT Data
+## 🤗 Long CoT Data
 
 📄 [Binary Long CoT](https://huggingface.co/datasets/ilgee/hs2-naive-reasoning-binary-max)
 
