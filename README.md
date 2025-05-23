@@ -209,13 +209,19 @@ Make sure to update the **vLLM server IP address** in each script.
 - Make sure to add your **HF token** and **wandb API key** in the script.
 - Alternatively, you can disable `wandb` logging if not needed.-->
 
-<!--#### MTBench Results
 
-| Model | First Turn | Second Turn |Average Score |
-|-------|-------|-------|-------|
-| Llama-3.1-8B-Instruct-grpo-ep2-lr2e-6-kl1e-4-rollout512-0.03-BT|8.94375| 7.443038 | 8.198113|
-| Llama-3.1-8B-Instruct-grpo-ep2-lr2e-6-kl1e-4-rollout512-0.03-generated | 9.0125 | 8.025 | 8.51875| 
-| Llama-3.1-8B-Instruct-grpo-ep2-lr2e-6-kl1e-4-rollout512-0.03-groundtruth | 9.05625 | 8.175 | 8.615625|
-| Llama-3.1-8B-Instruct-grpo-ep2-lr2e-6-kl1e-4-rollout512-0.03-binary | 8.9 | 7.9375 | 8.41875 | 
-| Llama-3.1-8B-Instruct-grpo-ep2-lr2e-6-kl1e-4-rollout512-0.03-multiclass | 8.848101 | 7.898734 | 8.373418 |
--->
+
+## 📄 Citation
+
+If you find this work helpful, please cite our paper:
+```bibtex
+@misc{hong2025thinkrm,
+      title={Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models}, 
+      author={Ilgee Hong and Changlong Yu and Liang Qiu and Weixiang Yan and Zhenghao Xu and Haoming Jiang and Qingru Zhang and Qin Lu and Xin Liu and Chao Zhang and Tuo Zhao},
+      year={2025},
+      eprint={2505.16265},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2505.16265}, 
+}
+```
