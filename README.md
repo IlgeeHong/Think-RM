@@ -2,13 +2,20 @@
 
 📖[Paper](https://www.arxiv.org/abs/2505.16265)
 
-![Think-RM](images/Think_RM.png)
+![Think-RM]()
 
-<p align="center">
+<div align="center">
+  <img src="images/Think_RM.png"
+       width="70%"
+       style="border-radius: 12px;"/>
+  <p><em> Overview of the Think-RM training framework</em></p>
+</div>
+
+<!--<p align="center">
   <img src="images/intro1-1.png" width="30%" />
   <img src="images/intro1-2.png" width="30%" />
   <img src="images/intro1-3.png" width="30%" />
-</p>
+</p>-->
 
 ## Overview
 
