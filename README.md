@@ -30,7 +30,7 @@ This repository implements **Think-RM**, a training framework that enables long-
   ```bash
   Think-RM/
   ├── EvalGenRM/            # GenRM evaluation
-  ├── OpenRLHF/           # SFT warm-up
+  ├── OpenRLHF/             # SFT warm-up
   ├── VERL/                 # Rule-based RL
   └── PairwiseRLHF/         # Pairwise RLHF for GenRMs
   ```
