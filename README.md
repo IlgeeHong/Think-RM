@@ -1,4 +1,4 @@
-# Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models
+# [NeurIPS 2025] Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models
 
 <p align="center">
   📝 <a href="https://www.arxiv.org/abs/2505.16265">Paper</a> &middot;
