@@ -38,7 +38,7 @@ python3 -m verl.trainer.main_ppo \
     custom_reward_function.path=verl/utils/reward_score/call_gen_prm_multiclass.py \
     custom_reward_function.name=compute_pref_batched \
     reward_model.reward_manager=batch_pref \
-    custom_reward_function.reward_kwargs.model_name=ilgee/hs2-naive-multiclass-max-ep5-lr5e-6-grpo-ep2-lr2e-6-kl1e-4-rollout512-half-v0 \
+    custom_reward_function.reward_kwargs.model_name=ilgee/Multiclass-Think-RM-8B \
     custom_reward_function.reward_kwargs.vllm_server_ip="vllm_server_ip" \
     custom_reward_function.reward_kwargs.n_port=8 \
     custom_reward_function.reward_kwargs.max_tokens=2048 \

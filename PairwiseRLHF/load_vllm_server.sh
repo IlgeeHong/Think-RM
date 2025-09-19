@@ -3,11 +3,11 @@ set -euo pipefail
 export TORCH_NCCL_AVOID_RECORD_STREAMS="1"
 export VLLM_USE_V1=0
 
-### Path to the multiclass Think-GenRM
-# MODEL="ilgee/hs2-naive-multiclass-max-ep5-lr5e-6-grpo-ep2-lr2e-6-kl1e-4-rollout512-half-v0"
+### Path to the multiclass Think-RM
+# MODEL="ilgee/Multiclass-Think-RM-8B"
 
-### Path to the binary Think-GenRM
-MODEL="ilgee/hs2-naive-binary-max-ep5-lr1e-5-grpo-ep1-lr2e-6-kl1e-4-rollout512-v0"
+### Path to the binary Think-RM
+MODEL="ilgee/Binary-Think-RM-8B"
 
 ### Directory to save vLLM server logs
 LOG_DIR="/workspace/logs"
