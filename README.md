@@ -39,13 +39,31 @@ This repository implements **Think-RM**, a training framework that enables long-
 
 ## 🤗 Pretrained Models
 
-🧠 [Binary Think-RM](https://huggingface.co/ilgee/hs2-naive-binary-max-ep5-lr1e-5-grpo-ep1-lr2e-6-kl1e-4-rollout512-v0)
+🧠 [Binary Think-RM](https://huggingface.co/ilgee/Binary-Think-RM-8B)
+<!--
+(https://huggingface.co/ilgee/hs2-naive-binary-max-ep5-lr1e-5-grpo-ep1-lr2e-6-kl1e-4-rollout512-v0)
+-->
 
-🧠 [Multiclass Think-RM](https://huggingface.co/ilgee/hs2-naive-multiclass-min-ep5-lr5e-6-grpo-ep2-lr2e-6-kl1e-4-rollout512-half-v0)
+🧠 [Multiclass Think-RM](https://huggingface.co/ilgee/Multiclass-Think-RM-8B)
+<!--
+(https://huggingface.co/ilgee/hs2-naive-multiclass-min-ep5-lr5e-6-grpo-ep2-lr2e-6-kl1e-4-rollout512-half-v0)
+-->
 
-🧠 [Multiclass CoT-GenRM (Ground Truth)](https://huggingface.co/ilgee/groundtruth-multiclass-ep5-lr1e-5)
+🧠 [Binary CoT-GenRM (Ground Truth)](https://huggingface.co/ilgee/Binary-CoT-GenRM-groundtruth-8B)
 
-🧠 [Multiclass CoT-GenRM (Model-Generated)](https://huggingface.co/ilgee/generated-multiclass-ep10-lr5e-6)
+<!--(https://huggingface.co/ilgee/groundtruth-multiclass-ep5-lr1e-5)-->
+
+🧠 [Multiclass CoT-GenRM (Ground Truth)](https://huggingface.co/ilgee/Multiclass-CoT-GenRM-groundtruth-8B)
+
+<!--(https://huggingface.co/ilgee/groundtruth-multiclass-ep5-lr1e-5)-->
+
+🧠 [Binary CoT-GenRM (Model-Generated)](https://huggingface.co/ilgee/Binary-CoT-GenRM-8B)
+
+<!--(https://huggingface.co/ilgee/generated-multiclass-ep10-lr5e-6)-->
+
+🧠 [Multiclass CoT-GenRM (Model-Generated)](https://huggingface.co/ilgee/Multiclass-CoT-GenRM-8B)
+
+<!--(https://huggingface.co/ilgee/generated-multiclass-ep10-lr5e-6)-->
 
 ---
 
@@ -122,10 +140,12 @@ python3 EvalGenRM/eval_bn.py \
 The implementation is based on [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF).
 
 ### 2.1 Setup
-- Install the necessary dependencies 
+
+Install the necessary dependencies 
   ```bash
   pip install -r requirements_sft.txt
   ```
+or follow the setup instructions from [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF).
 
 ### 2.2 Usage
 
@@ -144,10 +164,12 @@ Choose the appropriate training script based on the output type:
 The implementation is based on [verl](https://github.com/volcengine/verl).
 
 ### 3.1 Setup
-- Install the necessary dependencies 
+
+Install the necessary dependencies 
   ```bash
   pip install -r requirements.txt
   ```
+or follow the setup instructions from [verl](https://github.com/volcengine/verl).
 
 ### 3.2 Usage
 
@@ -233,13 +255,10 @@ Make sure to update the **vLLM server IP address** in each script.
 
 If you find this work helpful, please cite our paper:
 ```bibtex
-@misc{hong2025thinkrm,
-      title={Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models}, 
-      author={Ilgee Hong and Changlong Yu and Liang Qiu and Weixiang Yan and Zhenghao Xu and Haoming Jiang and Qingru Zhang and Qin Lu and Xin Liu and Chao Zhang and Tuo Zhao},
-      year={2025},
-      eprint={2505.16265},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2505.16265}, 
+@article{hong2025think,
+  title={Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models},
+  author={Hong, Ilgee and Yu, Changlong and Qiu, Liang and Yan, Weixiang and Xu, Zhenghao and Jiang, Haoming and Zhang, Qingru and Lu, Qin and Liu, Xin and Zhang, Chao and others},
+  journal={arXiv preprint arXiv:2505.16265},
+  year={2025}
 }
 ```

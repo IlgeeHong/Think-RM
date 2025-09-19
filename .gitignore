@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and output
+*.log
+logs/
+*.out
+
+# Secret files
+*.pem
+*.key
+*.env
+
+# Ignore everything in a folder but not the folder itself
+# (example for a data folder you want locally but not in repo)
+data/*
+!data/.gitkeep
+
+# Ignore model weights or checkpoints
+*.pt
+*.ckpt
+*.pth
+checkpoints/
+outputs/
+

@@ -205,8 +205,6 @@ tzdata==2025.2
 urllib3==2.4.0
 uvicorn==0.34.0
 uvloop==0.21.0
-# Editable install with no version control (verl==0.3.0.post1)
--e /workspace
 virtualenv==20.30.0
 vllm==0.8.2
 wandb==0.19.9
