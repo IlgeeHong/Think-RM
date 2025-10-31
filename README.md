@@ -1,4 +1,4 @@
-# [NeurIPS 2025] Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models
+# Think-RM: Enabling Long-Horizon Reasoning in Generative Reward Models
 
 <p align="center">
   📝 <a href="https://www.arxiv.org/abs/2505.16265">Paper</a> &middot;
@@ -39,29 +39,34 @@ This repository implements **Think-RM**, a training framework that enables long-
 
 ## 🤗 Pretrained Models
 
-🧠 [Binary Think-RM](https://huggingface.co/ilgee/Binary-Think-RM-8B)
+🧠 [Binary Think-RM-8B](https://huggingface.co/ilgee/Binary-Think-RM-8B)
 <!--
 (https://huggingface.co/ilgee/hs2-naive-binary-max-ep5-lr1e-5-grpo-ep1-lr2e-6-kl1e-4-rollout512-v0)
 -->
 
-🧠 [Multiclass Think-RM](https://huggingface.co/ilgee/Multiclass-Think-RM-8B)
+🧠 [Multiclass Think-RM-8B](https://huggingface.co/ilgee/Multiclass-Think-RM-8B)
 <!--
 (https://huggingface.co/ilgee/hs2-naive-multiclass-min-ep5-lr5e-6-grpo-ep2-lr2e-6-kl1e-4-rollout512-half-v0)
 -->
 
-🧠 [Binary CoT-GenRM (Ground Truth)](https://huggingface.co/ilgee/Binary-CoT-GenRM-groundtruth-8B)
+🧠 [Binary Think-RM-3B](https://huggingface.co/ilgee/Binary-Think-RM-3B)
+<!--
+(https://huggingface.co/ilgee/hs2-naive-binary-max-ep5-lr1e-5-grpo-ep1-lr2e-6-kl1e-4-rollout512-v0)
+-->
+
+🧠 [Binary CoT-GenRM-8B (Ground Truth)](https://huggingface.co/ilgee/Binary-CoT-GenRM-groundtruth-8B)
 
 <!--(https://huggingface.co/ilgee/groundtruth-multiclass-ep5-lr1e-5)-->
 
-🧠 [Multiclass CoT-GenRM (Ground Truth)](https://huggingface.co/ilgee/Multiclass-CoT-GenRM-groundtruth-8B)
+🧠 [Multiclass CoT-GenRM-8B (Ground Truth)](https://huggingface.co/ilgee/Multiclass-CoT-GenRM-groundtruth-8B)
 
 <!--(https://huggingface.co/ilgee/groundtruth-multiclass-ep5-lr1e-5)-->
 
-🧠 [Binary CoT-GenRM (Model-Generated)](https://huggingface.co/ilgee/Binary-CoT-GenRM-8B)
+🧠 [Binary CoT-GenRM-8B (Model-Generated)](https://huggingface.co/ilgee/Binary-CoT-GenRM-8B)
 
 <!--(https://huggingface.co/ilgee/generated-multiclass-ep10-lr5e-6)-->
 
-🧠 [Multiclass CoT-GenRM (Model-Generated)](https://huggingface.co/ilgee/Multiclass-CoT-GenRM-8B)
+🧠 [Multiclass CoT-GenRM-8B (Model-Generated)](https://huggingface.co/ilgee/Multiclass-CoT-GenRM-8B)
 
 <!--(https://huggingface.co/ilgee/generated-multiclass-ep10-lr5e-6)-->
 
